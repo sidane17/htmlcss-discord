@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing:border-box;
+
 }
 header{
     background-color: rgb(76, 64, 247);
@@ -26,6 +27,7 @@ header{
     color: aliceblue;
     padding: 0.5%;
 }
+
 button{
     padding: 0.5%;
     border-radius: 15px;
@@ -38,6 +40,13 @@ button{
     font-size:1rem;
     margin: 2%;
 }
+.celeste{
+   
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    font-size:1rem;
+    margin: 1%;
+}
 .white{
     margin: 2%;
     font-size:1rem;
@@ -47,6 +56,8 @@ button{
     border-radius: 15px;
 }
 .blocco{
+    background-color: rgb(76, 64, 247);
+    margin-top: 0;
     background-image: url(/img/jumbo.png);
     background-size:100%;
     background-repeat: no-repeat;
@@ -67,11 +78,91 @@ button{
     align-items: center;
 }
 .blocco2{
-    
-    width: 65%;
+     width: 65%;
     display: flex;
     flex-direction:row;
     justify-content: center;
     align-items: center;
+}
+.sezione{
+
+    min-height: 30rem;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
+.sezioneFinale{
+
+    min-height: 30rem;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.sezione1{
+    height: 27rem;
+    width: 35%;
+   
+}
+.sezione2{
+    height: 25rem;
+    width: 30%;
+    font-size:xx-large;
+    
+}
+.sezioneDue{
+    height: auto;
+    width: 65%;
+    font-size:xx-large;
+    
+}
+.sezioneTre{
+    height: 50rem;
+    width: 65%;
+    font-size:xx-large;
+    
+}
+#h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 5rem;
+    width: 30%;
+    background-image: url(/img/stars.svg);
+    background-size:contain;
+}
+footer{
+    margin-top: 0;
+    background-color: rgb(24, 24, 24);
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+.footer1{
+    color: aliceblue;
+    min-height: 25rem;
+    width: 10%;
+}
+.footer2{
+    color: aliceblue;
+    min-height: 25rem;
+    width: 5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+h2{
+    font-size: 1.8rem;
+    color: blueviolet;
+}
+.pe{
+    font-size: large;
+    color: blueviolet;
+}
+
+
